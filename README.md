@@ -7,6 +7,40 @@ With that said, you may notice videos and screenshots of my Steam Link stream is
 
 **Disclaimer** - I apologize for any pictures and videos with bad quality when taken from my phone. Unfortunately, I don't have any high-quality cameras or video recording devices.
 
+## Table Of Contents
+- [Setup](#setup)
+  - [Gaming Desktop](#gaming-desktop)
+  - [Projector](#projector)
+  - [Raspberry Pi 4 Model B](#raspberry-pi-4-model-b)
+  - [MicroSD Card & Flasher](#microsd-card--flasher)
+  - [Controller](#controller)
+  - [Monitor For Testing](#monitor-for-testing)
+- [Flashing MicroSD Card & Installing Raspberry Pi OS](#flashing-microsd-card--installing-raspberry-pi-os)
+  - [Download & Install Raspberry Pi Imager](#download--install-raspberry-pi-imager)
+  - [Download Raspberry Pi OS Buster Lite](#download-raspberry-pi-os-buster-lite)
+  - [Flash Raspberry Pi OS Buster Lite](#flash-raspberry-pi-os-buster-lite)
+  - [Connect Raspberry Pi To Monitor & Boot](#connect-raspberry-pi-to-monitor--boot)
+- [Login & Enable OpenSSH](#login--enable-openssh)
+- [Change User Password & Update Device](#change-user-password--update-device)
+- [Setting Up Autologin](#setting-up-autologin)
+- [Allocating More GPU Memory](#allocating-more-gpu-memory)
+- [Enabling 4K60](#enabling-4k60)
+- [Make FKMS Support Over 60FPS](#make-fkms-support-over-60fps)
+- [Enable Other Useful Config Options](#enable-other-useful-config-options)
+- [Setting Display Resolution](#setting-display-resolution)
+- [Setting Up Controllers](#setting-up-controllers)
+  - [Install Xpadneo](#install-xpadneo)
+  - [Pairing Through Bluetooth](#pairing-through-bluetooth)
+- [Installing Steam Link](#installing-steam-link)
+- [Pairing Steam Link With Your Computer](#pairing-steam-link-with-your-computer)
+- [Configuring Steam Link Settings](#configuring-steam-link-settings)
+- [Automatically Starting Steam Link On Boot](#automatically-starting-steam-link-on-boot)
+- [Ready To Game!](#ready-to-game)
+- [Conclusion](#conclusion)
+- [Alternatives To Steam Link](#alternatives-to-steam-link)
+- [More System Information](#more-system-information)
+- [Credits](#credits)
+
 ## [Gameplay Video](https://www.youtube.com/watch?v=LHAWJCxVwWo)
 I wanted to note in this video that the game sound cuts off at the end due to my headset turning off which in return disabled its audio devices and impacted audio from Steam Link.
 
