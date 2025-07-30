@@ -46,7 +46,6 @@ You may notice videos and screenshots of my Steam Link stream is actually only a
 - [Conclusion](#conclusion)
 - [Alternatives To Steam Link](#alternatives-to-steam-link)
 - [More System Information](#more-system-information)
-- [Credits](#credits)
 
 ## Gameplay Video
 https://www.youtube.com/watch?v=LHAWJCxVwWo
