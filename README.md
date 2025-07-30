@@ -1,11 +1,18 @@
-# [Setup Steam Link On Raspberry Pi 4 (1080P@120Hz)](https://moddingcommunity.com/topic/191-how-to-set-up-steam-link-on-a-raspberry-pi-4-1080p120hz-supported)
-For the last week or so, I've been trying to setup [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on my [Raspberry Pi 4 Model B](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X) devices. Along the way, I've ran into a few issues, some in which are documented in a separate GitHub repository I made [here](https://github.com/gamemann/Steam-Link-Setup-And-Issues-On-Raspberry-Pi). Unfortunately, I found that information on the Internet related to setting up Steam Link on a Raspberry Pi is very scattered and scarce, especially when wanting to stream at **120 FPS/Hz**, which is still fairly new to Steam Link. With that said, I also found that newer OS releases of the Raspberry Pi OS either have bad performance while running Steam Link or don't work at all. That is why we will be using a legacy version of Raspberry Pi OS called **Buster Lite**, which runs on 32-bit.
+<div align="center">
+
+![Banner](https://raw.githubusercontent.com/modcommunity/steam-link-with-raspberry-pi-setup/main/images/banner.png)
+
+</div>
+
+A **full guide** on how to set up [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on a [Raspberry Pi 4](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X). While this guide was written for a **Raspberry Pi 4**, it should also work with a *Raspberry Pi 3* and *4* with minor adjustments. That said, throughout this guide, we use an older Raspberry Pi OS called **Buster Lite** (10) due to stability and performance reasons from my testing in the past (runs 32-bit). However, you should be able to still follow this guide using a newer Raspberry Pi OS with some adjustments.
+
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-setup-steam-link-on-a-raspberry-pi-4-1080p-120hz/42)
 
 My main goal is to stream games from my gaming desktop to a new gaming projector I recently purchased called the [BenQ TH685P](https://www.amazon.com/dp/B09V22YRMJ) using Steam Link on my Raspberry Pi. I wanted to stream at `1920x1080` @ **120**Hz/FPS. While my goal was to stream at 120Hz, this guide should also work for refresh rates up to 144Hz with some small adjustments since that's the highest refresh rate Steam Link supports at this moment.
 
-With that said, you may notice videos and screenshots of my Steam Link stream is actually only around ~804 or so pixels in height and not truly 1080P. This is just specific to my setup due to my computer monitor's aspect ratio. If you use a monitor with the standard `16:9` aspect ratio (e.g. `1920x1080`) and stream via Steam Link, the game will be fully streamed at `1920x1080`.
+You may notice videos and screenshots of my Steam Link stream is actually only around ~804 or so pixels in height and not truly 1080P. This is just specific to my setup due to my computer monitor's aspect ratio. If you use a monitor with the standard `16:9` aspect ratio (e.g. `1920x1080`) and stream via Steam Link, the game will be fully streamed at `1920x1080`.
 
-**Disclaimer** - I apologize for any pictures and videos with bad quality when taken from my phone. Unfortunately, I don't have any high-quality cameras or video recording devices.
+**DISCLAIMER** - I apologize for any pictures and videos with bad quality when taken from my phone. Unfortunately, I don't have any high-quality cameras or video recording devices.
 
 ## Table Of Contents
 - [Setup](#setup)
@@ -41,8 +48,10 @@ With that said, you may notice videos and screenshots of my Steam Link stream is
 - [More System Information](#more-system-information)
 - [Credits](#credits)
 
-## [Gameplay Video](https://www.youtube.com/watch?v=LHAWJCxVwWo)
-I wanted to note in this video that the game sound cuts off at the end due to my headset turning off which in return disabled its audio devices and impacted audio from Steam Link.
+## Gameplay Video
+https://www.youtube.com/watch?v=LHAWJCxVwWo
+
+**NOTE** - The game sound cuts off at the end due to my headset turning off which in return disabled its audio devices and impacted audio from Steam Link.
 
 ## Setup
 I **strongly** recommend using a wired connection for both your computer you want to stream from and your Raspberry Pi device that will be running Steam Link. Even when your Raspberry Pi is right next to your router/wireless access point, using wireless will still likely result in hiccups every once and a while causing noticeable performance issues.
@@ -772,5 +781,6 @@ pi@raspberrypi:~ $ sudo lspci
 Version 5.50
 ```
 
-## Credits
-* [Christian Deacon](https://github.com/gamemann)
+If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-setup-steam-link-on-a-raspberry-pi-4-1080p-120hz/42)! This guide will be worked and improved on over time.
+
+Join our [Discord server](https://discord.moddingcommunity.com)!
