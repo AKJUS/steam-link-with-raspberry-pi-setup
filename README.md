@@ -4,7 +4,7 @@
 
 </div>
 
-A **full guide** on how to set up [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on a [Raspberry Pi 4](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X). While this guide was written for a **Raspberry Pi 4**, it should also work with a *Raspberry Pi 3* and *4* with minor adjustments. That said, throughout this guide, we use an older Raspberry Pi OS called **Buster Lite** (10) due to stability and performance reasons from my testing in the past (runs 32-bit). However, you should be able to still follow this guide using a newer Raspberry Pi OS with some adjustments.
+A **full guide** on how to set up [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on a [Raspberry Pi 4](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X) (up to **144 Hz/FPS**!). While this guide was written for a **Raspberry Pi 4**, it should also work with a *Raspberry Pi 3* and *4* with minor adjustments. That said, throughout this guide, we use an older Raspberry Pi OS called **Buster Lite** (10) due to stability and performance reasons from my testing in the past (runs 32-bit). However, you should be able to still follow this guide using a newer Raspberry Pi OS with some adjustments.
 
 [**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-setup-steam-link-on-a-raspberry-pi-4-1080p-120hz/42)
 
